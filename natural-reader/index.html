@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Natural Reader — Support</title>
+  <meta name="description" content="Help with Natural Reader: set up Siri Expressive Voice, import audio and shared readings, control playback, and learn about optional tips.">
+  <link rel="canonical" href="https://jarvischi.github.io/significant-locations-support/natural-reader/">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <nav aria-label="Support pages"><strong aria-current="page">Support</strong> · <a href="privacy-policy.html">Privacy Policy</a> · <a href="terms-of-use.html">Terms of Use</a></nav>
+    <h1>Natural Reader</h1>
+    <p>Read and listen with word highlighting, playback controls, and saved audio. Each reading remembers its selected voice and playback position.</p>
+
+    <h2>Set up Siri Expressive Voice</h2>
+    <ol>
+      <li>Open a reading and tap its voice name. Open setup beside <strong>Siri Expressive Voice</strong>.</li>
+      <li>Tap <strong>Add Shortcuts</strong> to open the <a href="https://www.icloud.com/shortcuts/b8579da3546d4a519236309d1f1cb687">Natural Reader Audio shortcut</a>. Review its actions and choose an expressive voice under <strong>Siri</strong> when asked.</li>
+      <li>Return to Natural Reader and tap <strong>Test Shortcut</strong>. The test checks that audio reaches the app and that word timing can be prepared.</li>
+      <li>After success, use <strong>Preview Test Audio</strong> to hear the selected voice, then tap <strong>Done</strong>. Use Play in your reading to prepare and listen to its audio.</li>
+    </ol>
+    <p>New expressive narration requires iOS 27 or macOS 27 and a compatible Siri configuration. Available voices depend on your device, language, and region. See <a href="https://support.apple.com/en-us/105092">Apple’s Siri voice settings</a>. The app cannot identify the selected voice by name; preview the test to confirm it sounds right.</p>
+
+    <h2>The shortcut test fails</h2>
+    <p>Check the message shown in setup. If no audio returns, open Shortcuts and confirm that <strong>Natural Reader Audio</strong> is installed, its requested permissions are allowed, and its audio action uses the intended Siri voice. Retry the test. If the shortcut has been changed or is still failing, remove that shortcut and add it again using <strong>Add Shortcuts</strong>.</p>
+    <p>If audio arrives but the app says on-device word timing is unavailable, reinstalling the shortcut will not provide the missing speech model. You can import a shared reading that already includes highlighting, or use an available alternative voice. Audio and voice availability depend on Apple’s device and system support.</p>
+
+    <h2>Create a reading</h2>
+    <p>Tap <strong>+</strong>, paste or type your text, then tap the red <strong>Save</strong> button. The first line is suggested as the title; tap the title field to enter your own. The top-right <strong>…</strong> menu contains <strong>Text File</strong> and <strong>Import Audio</strong>.</p>
+
+    <h2>Import audio or a shared reading</h2>
+    <p>Open <strong>+ → … → Import Audio → Choose Audio or Shared Reading</strong>. Audio import supports formats your device can play, including M4A, MP3, WAV, and AIFF. Transcription runs on device when a compatible local speech model is available. Older systems may ask for Speech Recognition permission; the app does not fall back to sending your recording to a speech server.</p>
+    <p>A <strong>.naturalreading</strong> file contains the text, audio, and word timings together. It plays without generating a new voice or transcribing the audio. This is the recommended way to transfer a prepared reading to an older phone running iOS 18 or later.</p>
+    <p>On the sending phone, open the reading’s <strong>… → Audio and Sharing</strong>, save its audio, then choose <strong>Prepare Reading to Share → Share Reading with Highlighting</strong>. Send the file with AirDrop, Files, or the share sheet. Anyone with the file can read its text and hear its audio.</p>
+
+    <h2>Playback and voices</h2>
+    <p>Playback includes pause, speed, seeking, and 10-second skips for prepared audio. Follow Spoken Text keeps the page still until the spoken line reaches the bottom, then brings the next line near the top. Voice choices and saved recordings belong to each reading. Switching between saved readings does not require generating their audio again.</p>
+    <p><strong>Azure is for advanced users only.</strong> It requires your own Microsoft Speech resource and API key. Generating narration sends the selected text to Microsoft and may incur charges on your account. The key is stored in this device’s Keychain and is excluded from shared readings. Remove it from the reading’s voice picker under <strong>Azure connection → Remove Azure connection</strong>.</p>
+
+    <h2>Buy me a coffee</h2>
+    <p><strong>All features are already available in the free app. Nothing needs to be unlocked.</strong> Open <strong>Settings → Buy me a coffee</strong> to choose an optional, one-time tip. Tips are not subscriptions and do not change access to any app feature. Apple displays your local price and confirms each purchase.</p>
+    <p>Tips are consumable purchases and can be made more than once. There is no subscription to cancel or feature purchase to restore. If a purchase is awaiting approval, all app features remain available. For an accidental purchase or other billing issue, use <a href="https://reportaproblem.apple.com/">Apple’s purchase and refund support</a>.</p>
+
+    <h2>Privacy and deleting readings</h2>
+    <p>Your library is stored in the app’s private storage. Deleting a reading removes that reading’s local audio and word timings. Backups and files you have shared must be managed separately. Read the <a href="privacy-policy.html">Privacy Policy</a> for details about Apple services, optional Azure, purchases, and support.</p>
+
+    <h2>Contact</h2>
+    <p>Email <a href="mailto:significantlocations@gmail.com">significantlocations@gmail.com</a> for help, bug reports, or feedback. Include your device model, system version, and the message you see. Do not send API keys or private reading content.</p>
+    <footer>Natural Reader is independently developed and is not affiliated with or endorsed by Apple or Microsoft. Siri is a trademark of Apple Inc. <a href="terms-of-use.html">Terms of Use</a>.</footer>
+  </main>
+</body>
+</html>

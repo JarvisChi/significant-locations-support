@@ -1,0 +1,14 @@
+:root { color-scheme: light dark; }
+body { margin: 0; background: #f9f9f9; color: #252525; font-family: system-ui, -apple-system, sans-serif; line-height: 1.65; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 24px 56px; }
+nav { margin-bottom: 32px; }
+h1 { font-size: 2rem; line-height: 1.2; letter-spacing: -.025em; }
+h2 { margin-top: 32px; font-size: 1.2rem; }
+a { color: #176c73; text-underline-offset: .15em; overflow-wrap: anywhere; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; border-radius: 2px; }
+li { margin: 12px 0; }
+footer { margin-top: 40px; font-size: .9rem; }
+@media (prefers-color-scheme: dark) {
+  body { background: #17191b; color: #e8eaeb; }
+  a { color: #8bd4d5; }
+}
