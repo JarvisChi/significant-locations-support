@@ -1,0 +1,7 @@
+.contact-support {
+  appearance: none; background: none; border: 0; padding: 0;
+  color: inherit; font: inherit; text-decoration: underline;
+  text-underline-offset: .15em; cursor: pointer;
+}
+.contact-support:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.contact-support:disabled { cursor: default; }
