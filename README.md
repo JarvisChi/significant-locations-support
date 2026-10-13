@@ -2,6 +2,8 @@
 
 This repository hosts the support pages for our mobile apps.
 
+- **Wallet Intelligence** – see the `wallet-intelligence/` folder for support and its privacy policy, including optional FinanceKit and Private Cloud Compute.
+
 - **Significant Locations** – see `index.html` and `privacy-policy.html`.
 - **Sordle** – see the `sordle/` folder for support and privacy policy pages.
 - **Visited Places** – see the `visited-places/` folder.
